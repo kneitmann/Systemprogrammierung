@@ -46,9 +46,13 @@ int main()
 				printf("\n");
 			}
 		}else
+		{
 			printf("Eingegebene Zahl ist gerade, keine Pyramide anwendbar");
+		}
 		printf("\n\n");	
 	}else
+	{
 		printf("Falscheingabe, nur Zahlen groesser 0\n");
+	}
 	return 0;
 }
